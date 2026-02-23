@@ -135,7 +135,7 @@ projekt/
 
 Można oczywiście swoje aplikacje.
 
-Przykładowy projekt od [Pana Doktora Jastrzębskiego](https://github.com/pjastr/PFsample), który jest zdecydowanie mniejszą skalą niżli projekt do wykonania na zaliczenie przedmiotu - proszę zwracać uwagę na wymagania co do zaliczenia!!!!
+Przykładowy projekt od [Pana Doktora Jastrzębskiego](https://github.com/pjastr/PFsample), który jest zdecydowanie mniejszą skalą niżli projekt do wykonania na zaliczenie przedmiotu - **proszę zwracać uwagę na wymagania co do zaliczenia!!!!**
 
 ## Uwagi dodatkowe
 
