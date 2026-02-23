@@ -204,4 +204,7 @@ With patterns, debugging, unit testing, and refactoring. Apress
 mgr inż. Adrian Albrecht:
 - chat (wiadomość prywatna) na MS Teams
 - mail 📧 [adrian.albrecht@matman.uwm.edu.pl](mailto:adrian.albrecht@matman.uwm.edu.pl)
+- Konsultacje: środa 13:30 – 16:30 (czasami możliwe wtorki od 11:30 po wcześniejszym ustaleniu)
+    - sala E1/20 (lub inna ustalona wcześniej z osobami studenckimi sala w przypadku konsultacji zbiorowych) 
+
 
