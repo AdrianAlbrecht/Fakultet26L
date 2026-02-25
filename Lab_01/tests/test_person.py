@@ -12,7 +12,7 @@ class TestPerson(unittest.TestCase):
         self.assertEqual(self.person.get_full_name(), "Jan Kowalski")
 
     def test_is_adult_true(self):
-        #Sprawdzamy, czy metod True dla osoby pełnoletniej
+        #Sprawdzamy, czy metoda is_adult zwraca True dla osoby pełnoletniej
         self.assertTrue(self.person.is_adult())
 
     def test_is_adult_false(self):
