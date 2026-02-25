@@ -9,11 +9,11 @@ class Person:
 
     def is_adult(self):
         if self.age is None:
-            raise ValueError("Ageisnotset")
+            raise ValueError("Age is not set")
         return self.age >= 18
 
     def celebrate_birthday(self):
         if self.age is None:
-            raise ValueError("Ageisnotset")
+            raise ValueError("Age is not set")
         self.age += 1
         return self.age

@@ -4,7 +4,7 @@ from src.person import Person
 
 class TestPerson(unittest.TestCase):
     def setUp(self):
-        #Ten kod jest wykonywan yprzed każdym testem
+        #Ten kod jest wykonywany przed każdym testem
         self.person = Person("Jan", "Kowalski", 30)
 
     def test_get_full_name(self):
@@ -12,7 +12,7 @@ class TestPerson(unittest.TestCase):
         self.assertEqual(self.person.get_full_name(), "Jan Kowalski")
 
     def test_is_adult_true(self):
-        #Sprawdzamy, czy metoda is_adult zwraca True dla osoby pełnoletniej
+        #Sprawdzamy, czy metod True dla osoby pełnoletniej
         self.assertTrue(self.person.is_adult())
 
     def test_is_adult_false(self):
