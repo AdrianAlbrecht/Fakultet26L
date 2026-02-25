@@ -60,7 +60,7 @@ class TestPerson(unittest.TestCase):
 
     def test_get_full_name(self):
         #Sprawdzamy, czy metoda get_full_name zwraca poprawną wartość
-        self.assertEqual(self.person.get_full_name(), "JanKowalski")
+        self.assertEqual(self.person.get_full_name(), "Jan Kowalski")
 
     def test_is_adult_true(self):
         #Sprawdzamy, czy metoda is_adult zwraca True dla osoby pełnoletniej
@@ -74,7 +74,7 @@ class TestPerson(unittest.TestCase):
     def test_is_adult_no_age(self):
         #Sprawdzamy, czy metoda is_adult zgłasza wyjątek, gdy age nie jest ustawiony
         person_no_age = Person("Piotr","Wiśniewski")
-        withself.assertRaises(ValueError):
+        with self.assertRaises(ValueError):
             person_no_age.is_adult()
 
     def test_celebrate_birthday(self):
@@ -113,10 +113,7 @@ python -m unittest discover -s tests
 ```
 python -m unittest discover -s tests -p "test_*.py"
 ```
-4. Bezpośrednie uruchomienie pliku testowego (jeśli zawiera if __name__ == "__main__"):
-```
-python tests/test_person.py
-```
+
 
 ### Najważniejsze metody unittest
 
