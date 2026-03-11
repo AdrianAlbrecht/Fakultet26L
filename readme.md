@@ -118,7 +118,7 @@ projekt/
 ## 4. Termin i forma oddania projektu
 
 1. Projekt należy oddać w formie spakowanego kodu do wystawionego zadania na utworzonym zespole MS Teams.
-2. Termin oddania: 27.05.2025 do godz 23:59
+2. Termin oddania: 27.05.2026 do godz 23:59
 3. Projekt powinien zawierać plik README.md z krótką dokumentacją (nie rozwijajmy się za specjalnie w tym kroku - ważne, aby było opis czego dotyczy aplikacja, co robi, jak uruchomić i apkę i testy, itd.)
 4. W arcxhiwum (preferowany zip) powinien znajdować się plik requirements.txt z listą zależności (potrzebnych bibliotek, ich wersji, wersji pythona itd.)
 
