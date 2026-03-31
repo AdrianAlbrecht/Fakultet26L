@@ -127,7 +127,7 @@ from unittest.mock import MagicMock
 magic_mock = MagicMock()
 magic_mock.__len__.return_value = 5
 magic_mock.__add__.return_value ="wynik dodawania"
-magic_mock.__getitem__.side_effect = **lambda** key: f"wartość dla {key}"
+magic_mock.__getitem__.side_effect = lambda key: f"wartość dla {key}"
 magic_mock.__str__.return_value ="to jest magiczny mock"
 
 # Użycie jako menedżera kontekstu
@@ -190,7 +190,7 @@ Metoda `reset_mock` pozwala na zresetowanie historii wywołań mocka, co jest pr
 
 ```python
 # Różne odpowiedzi dla różnych argumentów
-mock.side_effect = **lambda** x: {
+mock.side_effect = lambda x: {
     1 : "jeden",
     2 : "dwa",
     3 : "trzy"
@@ -232,7 +232,7 @@ Dekorator `@patch` tymczasowo podmienia oryginalny obiekt na atrapy tylko podcza
 ```python
 import unittest
 from unittest.mock import patch
-from my_moduleimport function_that_calls_external_api
+from my_module import function_that_calls_external_api
 
 class TestMyFunction(unittest.TestCase):
 
@@ -295,7 +295,7 @@ patcher.stop() # Należy pamiętać o zatrzymaniu patchera
 
 ```python
 # Jeśli w testowanym pliku mamy:
-frompakiet.moduł import funkcja
+from pakiet.moduł import funkcja
 
 # To w teście używamy:
 @patch('testowany_plik.funkcja') # a NIE 'pakiet.moduł.funkcja'
